@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WHOAMI_.md",
+                "file": "_WHOAMI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WHOAMI_"
+              "title": "_WHOAMI"
             }
           }
         ]
@@ -187,7 +187,7 @@
   "active": "9d2064608dfc28f7",
   "lastOpenFiles": [
     "README.md",
-    "WHOAMI_.md",
+    "_WHOAMI.md",
     "SYNC_BREEZE_10.0.28/images_/sync_breeze.png",
     "SYNC_BREEZE_10.0.28/images_/sync_install.png",
     "SYNC_BREEZE_10.0.28/images_/login_page.png",

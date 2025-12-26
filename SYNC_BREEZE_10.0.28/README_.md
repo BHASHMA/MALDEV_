@@ -8,20 +8,17 @@ What happened --> char.buffer thiyo 760 , so we sent 760 + shellcode to the appl
 Install SyncBreeze --> Enable web server --> Connect Windbg --> Open webserver !
 
 
-![[images_/sync_install.png]]
+![](images_/sync_breeze.png)
 
 
 WebSite -> Login page !
 
-![[images_/login_page.png]]
-
+![](images_/login_page.png)
 
 
 Proxy with Burp !
 
-![[images_/burp_login.png]]
-
-
+![](images_/burp_.png)
 
 
 ```crash.py

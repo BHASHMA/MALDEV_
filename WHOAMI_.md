@@ -3,5 +3,6 @@
 WELCOME TO MY JOURNEY OF MALWARE FUCKINF DEVELOPMENT !!
 
 
+![](SYNC_BREEZE_10.0.28/images_/journey_.png)
 
-![[SYNC_BREEZE_10.0.28/images_/journey_.png]]
+

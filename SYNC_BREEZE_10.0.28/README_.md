@@ -3,7 +3,7 @@ Application runs webserver port 80 ; username field of HTTP POST ; pre-auth buff
 
 What happened --> char.buffer thiyo 760 , so we sent 760 + shellcode to the application ; CONTROL THE EIP -->lets control that bad boy ; 
 
-### CRASH THE PROGRAM !
+## CRASH THE PROGRAM !
 
 Install SyncBreeze --> Enable web server --> Connect Windbg --> Open webserver !
 
@@ -61,5 +61,8 @@ except socket.error:
 
 
 
+
+
+## CONTROL THE EIP
 
 

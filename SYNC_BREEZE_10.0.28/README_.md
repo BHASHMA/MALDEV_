@@ -65,8 +65,10 @@ except socket.error:
 ![](images_/access_violation.png)
 
 
-
 Cool ! We got AAAA's in the EIP , that means we are on our path !
+
+
+
 
 
 
@@ -96,6 +98,9 @@ Restart the program , attach the debugger and "g" or GO ! We find the value of E
 
 
 Now we know the exact spot to hit !s
+
+
+
 
 
 ## CONTROL THE EIP
@@ -148,6 +153,9 @@ except socket.error:
 Cool ! We got B's on the EIP, that means we can now control the program !
 
 
+
+
+
 ## LOCATING SPACE FOR OUR SHELLCODE
 
 Now , we can place any stack address in the EIP registers ;
@@ -187,6 +195,9 @@ Now after the crash --> Lets debugger !
 Cool ! we got 708 bits of free space in the buffer ! Lets fucking go.....
 
 
+
+
+
 ## CHECKING BAD CHARACTERS
 
 A character is bad if :
@@ -198,6 +209,3 @@ A character is bad if :
 To determine Bad Chars --> we send all the possible hex-values ; repeat until we find the chars. to avoid !
 1. Send all the hex char as shellcode --> crash the program ; 
 2. dbg > db esp -10 L20 / L180 --> we find which char. didnt flow to the memory , remove that char. --> and send it again and again until the flow is smooth !
-
-
-ss

@@ -1,9 +1,11 @@
 
-### Attacking Sync Breeze 10.0.28
+### Sync Breeze 10.0.28
 
 Application runs webserver port 80 ; username field of HTTP POST ; pre-auth buffer-overflow ; haha muji normal webserver mah username - brute force , social engineering  ; application [x86 x64] sakkyo once control the EIP --> control the flow of the program ; 
 
 What happened --> char.buffer thiyo 760 , so we sent 760 + shellcode to the application ; CONTROL THE EIP -->lets control that bad boy ; 
+
+
 
 ## CRASH THE PROGRAM !
 

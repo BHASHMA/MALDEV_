@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SYNC_BREEZE_10.0.28/README_.md",
+                "file": "SEH_OVERFLOWS/README_.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,26 +184,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "7b07e2fbd2f3b40e",
+  "active": "193eeef9553be094",
   "lastOpenFiles": [
-    "SYNC_BREEZE_10.0.28/images_/locating_space.png",
-    "SYNC_BREEZE_10.0.28/README_.md",
+    "SEH_OVERFLOWS",
+    "STACK_OVERFLOWS/README_.md",
+    "BHASHMA_.md",
+    "STACK_OVERFLOWS/images_/locating_space.png",
     "Pasted image 20260512232313.png",
     "Pasted image 20260512232308.png",
-    "SYNC_BREEZE_10.0.28/images_/control_eip.png",
-    "SYNC_BREEZE_10.0.28/images_/pattern_offset.png",
-    "SYNC_BREEZE_10.0.28/images_/pattern_eip.png",
-    "SYNC_BREEZE_10.0.28/images_/pattern_create.png",
-    "SYNC_BREEZE_10.0.28/images_/access_violation.png",
-    "_WHOAMI.md",
-    "SEH_OVERFLOWS.md",
+    "STACK_OVERFLOWS/images_/control_eip.png",
+    "STACK_OVERFLOWS/images_/pattern_offset.png",
+    "STACK_OVERFLOWS/images_/pattern_eip.png",
+    "STACK_OVERFLOWS/images_/pattern_create.png",
+    "STACK_OVERFLOWS/images_/access_violation.png",
+    "SEH_OVERFLOWS/README_.md",
     "README.md",
-    "SYNC_BREEZE_10.0.28/images_/sync_breeze.png",
+    "STACK_OVERFLOWS/images_/sync_breeze.png",
     "SYNC_BREEZE_10.0.28/images_/sync_install.png",
     "MEMORY_PROTECTORS.md",
     "Unconfirmed 556408.crdownload",
-    "SYNC_BREEZE_10.0.28/images_",
-    "SYNC_BREEZE_10.0.28",
+    "STACK_OVERFLOWS/images_",
+    "STACK_OVERFLOWS",
     "Welcome.md",
     "README"
   ]

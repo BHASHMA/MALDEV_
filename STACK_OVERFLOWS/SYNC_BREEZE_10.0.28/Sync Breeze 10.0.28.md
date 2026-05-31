@@ -1,5 +1,5 @@
 
-### Sync Breeze 10.0.28
+# SYNC_BREEZE_10.0.28
 
 Application runs webserver port 80 ; username field of HTTP POST ; pre-auth buffer-overflow ; haha muji normal webserver mah username - brute force , social engineering  ; application [x86 x64] sakkyo once control the EIP --> control the flow of the program ; 
 
@@ -101,7 +101,7 @@ Restart the program , attach the debugger and "g" or GO ! We find the value of E
 ![](images_/pattern_offset.png)
 
 
-Now we know the exact spot to hit !s
+Now we know the exact spot to hit !
 
 
 
@@ -213,3 +213,4 @@ A character is bad if :
 To determine Bad Chars --> we send all the possible hex-values ; repeat until we find the chars. to avoid !
 1. Send all the hex char as shellcode --> crash the program ; 
 2. dbg > db esp -10 L20 / L180 --> we find which char. didnt flow to the memory , remove that char. --> and send it again and again until the flow is smooth !
+

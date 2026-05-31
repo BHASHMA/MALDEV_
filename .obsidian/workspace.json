@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STACK_OVERFLOWS/README_.md",
+                "file": "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README_"
+              "title": "GATE_KEEPER"
             }
           }
         ]
@@ -184,27 +184,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "7b07e2fbd2f3b40e",
+  "active": "193eeef9553be094",
   "lastOpenFiles": [
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/final_.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/BOOM.png",
+    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/Sync Breeze 10.0.28.md",
+    "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/bad_chars.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/jmp_esp.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/space_.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/control_eip.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/offset_.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/eip_.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/gatekeeper_.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_/crash_.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/images_",
+    "visit.md",
     "SEH_OVERFLOWS/README_.md",
-    "STACK_OVERFLOWS/README_.md",
+    "STACK_OVERFLOWS/GATEKEEPER_",
+    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28",
+    "BHASHMA_.md",
     "SEH_OVERFLOWS/images_",
     "SEH_OVERFLOWS",
-    "BHASHMA_.md",
-    "STACK_OVERFLOWS/images_/locating_space.png",
-    "Pasted image 20260512232313.png",
-    "Pasted image 20260512232308.png",
-    "STACK_OVERFLOWS/images_/control_eip.png",
-    "STACK_OVERFLOWS/images_/pattern_offset.png",
-    "STACK_OVERFLOWS/images_/pattern_eip.png",
-    "STACK_OVERFLOWS/images_/pattern_create.png",
-    "STACK_OVERFLOWS/images_/access_violation.png",
+    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/images_/locating_space.png",
     "README.md",
-    "STACK_OVERFLOWS/images_/sync_breeze.png",
-    "SYNC_BREEZE_10.0.28/images_/sync_install.png",
     "MEMORY_PROTECTORS.md",
     "Unconfirmed 556408.crdownload",
-    "STACK_OVERFLOWS/images_",
+    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/images_",
     "STACK_OVERFLOWS",
     "Welcome.md",
     "README"

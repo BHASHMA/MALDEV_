@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEH_OVERFLOWS/DISK_PULSE_/DISK_PULSE.md",
+                "file": "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DISK_PULSE"
+              "title": "GATE_KEEPER"
             }
           }
         ]
@@ -186,22 +186,22 @@
   },
   "active": "e1ed66177cc1f24b",
   "lastOpenFiles": [
-    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/SYNC_BREEZE_10.4.18.md",
+    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/Sync Breeze 10.0.28.md",
+    "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
     "SEH_OVERFLOWS/DISK_PULSE_/DISK_PULSE.md",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/SYNC_BREEZE_10.4.18.md",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/sync_breeze-final.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_space.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_hopping.png",
+    "Pasted image 20260608013247.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_debug.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_2.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_1.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/short_jmp-2.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/short_jump-2.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/short_jmp.png",
     "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18",
     "SEH_OVERFLOWS/DISK_PULSE_",
-    "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/final_.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/BOOM.png",
-    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/Sync Breeze 10.0.28.md",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/bad_chars.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/jmp_esp.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/space_.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/control_eip.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/offset_.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/eip_.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/gatekeeper_.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/images_/crash_.png",
     "STACK_OVERFLOWS/GATEKEEPER_/images_",
     "visit.md",
     "STACK_OVERFLOWS/GATEKEEPER_",

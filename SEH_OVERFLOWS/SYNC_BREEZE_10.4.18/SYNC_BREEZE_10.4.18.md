@@ -254,14 +254,12 @@ nasm > ret
 }
 ```
 
-The script starts with a _.block_ control flow, might be clearer as “which defines a block of statements. Any aliases or pseudo-registers that are changed within the block will not be updated outside of it. We can implement the search using two _.for_ loops. Each loop will use the _t0_, and _t1_ pseudo-registers respectively. These pseudo-registers will be set to 0x58 and incremented by 0x01 each time the loop runs until they reach 0x5F.
+Simply, This script check for the possible P/P/R instructions....Just replace the memory addresses .....
 
-Inside the second loop, we find the _s_ search command followed by the _1_ flag, which only displays the memory address where the opcodes are found. Next, we hardcoded the start and end address of **libspp.dll**, then used our two pseudo-registers to retrieve every possible POP R32, POP R32 instruction sequence. Finally, we added the last opcode for the RET instruction.
-
-The script  is saved on disk as a **.wds** file, and run the script with `$><` command.
+Then save the script  as a **.wds** file, and run the script with `$><` command.
 
 ```
-0:007> $><C:\Users\offsec\Desktop\find_ppr.wds
+0:000> $><C:\Users\offsec\Desktop\ppr.wds
 0x1015a2f0
 0x100087dd
 0x10008808

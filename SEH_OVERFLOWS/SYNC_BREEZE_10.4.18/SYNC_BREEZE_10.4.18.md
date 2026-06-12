@@ -254,9 +254,9 @@ nasm > ret
 }
 ```
 
-Simply, This script check for the possible P/P/R instructions....Just replace the memory addresses .....
+Simply, This script check for the possible P/P/R instructions. Just replace the memory addresses.....
 
-Then save the script  as a **.wds** file, and run the script with `$><` command.
+Then save the script  as a `"ppr.wds"` file, and run the script with `$><` command.
 
 ```
 0:000> $><C:\Users\offsec\Desktop\ppr.wds

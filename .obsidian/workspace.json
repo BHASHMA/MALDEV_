@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEH_OVERFLOWS/DISK_PULSE_/DISK_PULSE.md",
+                "file": "STACK_OVERFLOWS/KYOTO_/KYOTO_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DISK_PULSE"
+              "title": "KYOTO_"
             }
           }
         ]
@@ -186,9 +186,15 @@
   },
   "active": "9af643f0a00cbd95",
   "lastOpenFiles": [
+    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/Sync Breeze 10.0.28.md",
+    "STACK_OVERFLOWS/KYOTO_/KYOTO_.md",
+    "STACK_OVERFLOWS/KYOTO_/images_/rev_kyoto.png",
+    "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
+    "SEH_OVERFLOWS/DISK_PULSE_/DISK_PULSE.md",
+    "STACK_OVERFLOWS/KYOTO_/images_",
+    "STACK_OVERFLOWS/KYOTO_",
     "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-final.png",
     "SEH_OVERFLOWS/DISK_PULSE_/images_/island-4.png",
-    "SEH_OVERFLOWS/DISK_PULSE_/DISK_PULSE.md",
     "SEH_OVERFLOWS/DISK_PULSE_/images_/island-3.png",
     "SEH_OVERFLOWS/DISK_PULSE_/images_/island-2.png",
     "SEH_OVERFLOWS/DISK_PULSE_/images_/island-1.png",
@@ -197,11 +203,7 @@
     "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-short-jmp.png",
     "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-ppr-2.png",
     "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-ppr.png",
-    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-bad-4.png",
-    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-bad-3.png",
-    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/Sync Breeze 10.0.28.md",
     "SEH_OVERFLOWS/DISK_PULSE_/images_",
-    "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
     "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18",
     "SEH_OVERFLOWS/DISK_PULSE_",
     "STACK_OVERFLOWS/GATEKEEPER_/images_",
@@ -213,8 +215,6 @@
     "SEH_OVERFLOWS",
     "README.md",
     "MEMORY_PROTECTORS.md",
-    "Unconfirmed 556408.crdownload",
-    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/images_",
     "Welcome.md"
   ]
 }

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e6ec27b3e5a854e6",
+        "id": "02b8294209969d83",
         "type": "tabs",
         "children": [
           {
-            "id": "4fa304fd7e57b4ad",
+            "id": "9af643f0a00cbd95",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEH_OVERFLOWS/DISK_PULSE_/DISK_PULSE.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DISK_PULSE"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "bc70a13b8fdefb73",
@@ -184,22 +180,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "4fa304fd7e57b4ad",
+  "active": "193eeef9553be094",
   "lastOpenFiles": [
-    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/Sync Breeze 10.0.28.md",
-    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/images_/sync_bp-eip.png",
-    "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
-    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/images_/sync_jmp-esp.png",
-    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/images_/sync_bad-char.png",
-    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/SYNC_BREEZE_10.4.18.md",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-final.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/island-4.png",
     "SEH_OVERFLOWS/DISK_PULSE_/DISK_PULSE.md",
-    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/sync_breeze-final.png",
-    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_space.png",
-    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_hopping.png",
-    "Pasted image 20260608013247.png",
-    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_debug.png",
-    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_2.png",
-    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/images_/island_1.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/island-3.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/island-2.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/island-1.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-short-jmp-2.png",
+    "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18/SYNC_BREEZE_10.4.18.md",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-short-jmp.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-ppr-2.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-ppr.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-bad-4.png",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_/disk-bad-3.png",
+    "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/Sync Breeze 10.0.28.md",
+    "SEH_OVERFLOWS/DISK_PULSE_/images_",
+    "STACK_OVERFLOWS/GATEKEEPER_/GATE_KEEPER.md",
     "SEH_OVERFLOWS/SYNC_BREEZE_10.4.18",
     "SEH_OVERFLOWS/DISK_PULSE_",
     "STACK_OVERFLOWS/GATEKEEPER_/images_",
@@ -213,7 +211,6 @@
     "MEMORY_PROTECTORS.md",
     "Unconfirmed 556408.crdownload",
     "STACK_OVERFLOWS/SYNC_BREEZE_10.0.28/images_",
-    "STACK_OVERFLOWS",
     "Welcome.md"
   ]
 }

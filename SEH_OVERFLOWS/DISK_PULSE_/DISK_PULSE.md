@@ -2,9 +2,9 @@
 # DISK_PULSE_V10.0.12
 
 
-This aint the detailed walkthrough process of SEH ,  how SEH-chain works. If you want to know about SEH visit [SYNC_BREEZE_10.4.18](../SYNC_BREEZE_10.4.18/SYNC_BREEZE_10.4.18.md)
+For detailed  process of SEH , how SEH-chain works.  visit [SYNC_BREEZE_10.4.18](../SYNC_BREEZE_10.4.18/SYNC_BREEZE_10.4.18.md)
 
-This is basically for DISK PULSE ; where we exploit with different kinda approach. 
+This is basically for DISK PULSE ; where we exploit with different kinda approach.  Install the Disk Pulse version 10.0.12 and start the webserver.
 
 ## CRASH THE PROGRAM
 

@@ -478,3 +478,4 @@ Now send the final bomb made by your own fuckin' hands destroy the disk-pulse ap
 
 
 ![](images_/disk-final.png)
+

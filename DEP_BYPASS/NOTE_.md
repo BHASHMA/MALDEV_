@@ -10,11 +10,11 @@ Enabling DEP....
 5. Add [+] Program to customize , feed the relative path of the binary
 6. On Program Setting .... Scroll Down till...
 
-![572](enablin_dep.png)
+![572](img_/enablin_dep.png)
 
 Checkin' it with Windbg...
 
-![](chekin_dep.png)
+![](img_/chekin_dep.png)
 
 We just added dummy shellcode of four NOP's to the EIP i.e the current shellcode, then found the access violation...The **Access Violation (c0000005)** error occurs when a program attempts to **read, write, or execute** a memory address it does not have permission to access.
 

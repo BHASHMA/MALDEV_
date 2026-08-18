@@ -28,17 +28,32 @@ Attack where we use assembly instructions (called gadgets) and API's which are a
 
 Simply...as DEP is enabled it makes some area non-executable(NX), So we need some way to bypass. There we use ROP, where we use loaded instructions to either allocate executable memory, or changing the permission, or even write the shellcode in (.txt) section to bypass DEP.
 
+First Bypass was ret-2libc (from Linux back in the days), then over the time this exploit's called ROP Chain attack. There are basically two approaches:
+1. Build 100% ROP Shellcode (Complex - sans 760)
+2. Build ROP chain that leads to executing our shellcode.
+
+We discussin' about the Rop chain.
+
+One way to implement this attack is to allocate memory with write and execute permission and copy our shellcode [Win 32 Virtual Alloc]
+
+OR, Change the permission of the memory page where shellcode already resides. [Virtual Protect]
+
+OR, [Win32 Write Process Memory] - hot patches the code section (.txt) of running process, then injects the shellcode to it. Completely bypass DEP/
+
+ROP Chain is sequence of gadgets  address placed on the stack.
+
+Buffer Overflow ---> Control EIP ---> Execute ROP Chain ---> Call Virtual Protect() ---> Memory Becomes Executable ---> Jumps to the shellcode.
 
 
 
+### Finding Gadgets (Small assembly instructions ending with RET)
+
+Why RET ? - RET pops the next address from stack and jumps to it..
 
 
-
-
-
-
-
-### Finding Gadgets
+We use Rp++ (Open Source Gadgets finder)
+1. Copy the executable / dll
+2. rp++ -f file.exe/dll -r 5 > rop.txt
 
 Vs-Code Regex 
 

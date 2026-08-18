@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BHASHMA_.md",
+                "file": "DEP_BYPASS/NOTE_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BHASHMA_"
+              "title": "NOTE_"
             }
           }
         ]
@@ -186,8 +186,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "193eeef9553be094",
+  "active": "9df416bb4581a8a6",
   "lastOpenFiles": [
+    "BHASHMA_.md",
     "DEP_BYPASS/NOTE_.md",
     "DEP_BYPASS/exploit.py.md",
     "DEP_BYPASS/img_",
@@ -217,7 +218,6 @@
     "STACK_OVERFLOWS/GATEKEEPER_/images_",
     "visit.md",
     "STACK_OVERFLOWS/GATEKEEPER_",
-    "BHASHMA_.md",
     "README.md",
     "MEMORY_PROTECTORS.md",
     "Welcome.md"

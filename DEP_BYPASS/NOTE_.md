@@ -22,7 +22,23 @@ We just added dummy shellcode of four NOP's to the EIP i.e the current shellcode
 Cool ! Now as an attacker the first thing in mind is how can I bypass this or exploit this. So for that we use Return Oriented Programming (ROP) or Jump Oriented Programming (JOP). JOP is mostly used where we do not have ret. basically when exploiting ARM. 
 
 
+### Return Oriented Programming (ROP)
 
+Attack where we use assembly instructions (called gadgets) and API's which are already loaded in the process.
+
+Simply...as DEP is enabled it makes some area non-executable(NX), So we need some way to bypass. There we use ROP, where we use loaded instructions to either allocate executable memory, or changing the permission, or even write the shellcode in (.txt) section to bypass DEP.
+
+
+
+
+
+
+
+
+
+
+
+### Finding Gadgets
 
 Vs-Code Regex 
 

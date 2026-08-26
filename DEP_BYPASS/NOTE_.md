@@ -1,4 +1,6 @@
 
+### INTRO_
+
 Data Execution Prevention (DEP), simply the CPU makes the .txt part NX i.e Non Executable. We can write data to the memory , but cant execute it.
 
 Enabling DEP....
@@ -20,6 +22,7 @@ We just added dummy shellcode of four NOP's to the EIP i.e the current shellcode
 
 
 Cool ! Now as an attacker the first thing in mind is how can I bypass this or exploit this. So for that we use Return Oriented Programming (ROP) or Jump Oriented Programming (JOP). JOP is mostly used where we do not have ret. basically when exploiting ARM. 
+
 
 
 ### Return Oriented Programming (ROP)
@@ -113,3 +116,43 @@ Now update the Proof-Of-Concept : and crash it !
 ```
 
 Once the proof of concept is executed, the network packet will trigger the buffer overflow and position the dummy values exactly before the 0x42424242 DWORD that overwrites EIP. The location of the ROP skeleton is correct, but the DWORDs containing 0x47474747 and 0x49494949 were overwritten with null bytes as part of the process to trigger the vulnerability. This won't impact us since we're going to overwrite them again with ROP.
+
+
+
+### Making ROP's Acquaintance
+
+Now we need to replace 6 dummy values , Before invoking VirtualAlloc.
+
+
+
+
+### NOTE
+
+To bypass DEP, we just call the Win API's and execute them. In order to call and execute them. ROP - Use existing code (gadgets) to call Windows API's
+
+Overflow 
+|
+|
+Contol EIP ---- First ROP Gadget
+|
+|
+ROP Chain
+|
+|
+Virtual Alloc / Virtual Protect (call windows api's)
+|
+|
+Shellcoed
+
+
+*CPU Mental Model*
+EIP = Current Gadget
+ESP = Next Gadget
+RET = EIP = [ESP]
+ESP += 4
+
+RET always asks ESP for the next gadget
+
+Don't search Gadgets first. Search for the value you need. Then find gadgets to create it.....
+
+

